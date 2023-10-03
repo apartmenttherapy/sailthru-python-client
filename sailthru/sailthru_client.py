@@ -417,7 +417,7 @@ class SailthruClient(object):
         if date is not None:
             data['date'] = date
         if expire_date is not None:
-            data['expire_date'] = date
+            data['expire_date'] = expire_date
         if location is not None:
             data['location'] = date
         if price is not None:
